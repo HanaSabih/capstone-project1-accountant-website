@@ -20,8 +20,6 @@ body {
 
 a {
   text-decoration: none;
-
-  /* color: white; */
 }
 
 a:hover {
@@ -66,11 +64,14 @@ a:hover {
 
 /* hero section */
 .hero {
-  background-image:
-    url("./assets/images/hero/hero-1.png"),
-    url("./assets/images/hero/hero3.jpg");
-  background-position: center;
+  background:
+    linear-gradient(
+      rgba(242, 237, 237, 0.5),
+      rgba(242, 237, 237, 0.5)
+    ),
+    url(./assets/images/hero/hero3.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -91,8 +92,6 @@ a:hover {
   font-weight: 1000;
   font-size: 5rem;
   line-height: 1.1;
-
-  /* background-clip: text; */
   -webkit-background-clip: text;
   background-image: url(./assets/images/hero/hbgd6.jpg);
   background-position: left 23%, right top;
@@ -120,7 +119,7 @@ a:hover {
 
 /* course Section */
 .courseSection .images {
-  width: 70%;
+  width: 100%;
   margin: 1rem;
 }
 
@@ -190,6 +189,10 @@ a:hover {
   background-size: cover;
 }
 
+.toolsapp .card:hover {
+  border: 1px solid white;
+}
+
 @media screen and (min-width: 768px) {
   .width8 {
     width: 80%;
@@ -197,6 +200,14 @@ a:hover {
 
   .width5 {
     width: 50%;
+  }
+
+  .toolsapp .card {
+    height: 45vh;
+  }
+
+  .toolsapp .card-text {
+    font-size: 2.8vh;
   }
 
   /* header */
@@ -215,7 +226,7 @@ a:hover {
   }
 
   .nav-link {
-    margin-left: 10vh;
+    margin-left: 2rem;
   }
 
   .nav-item .btn {
@@ -286,6 +297,10 @@ a:hover {
 
   .desksection {
     background-color: #2e2e2e;
+  }
+
+  .courseSection h3 {
+    font-size: 3vh;
   }
 }
 
@@ -449,21 +464,26 @@ a:hover {
 
   /* courseSection */
   .courseSection .card {
-    height: 45vh;
+    height: 16rem;
   }
 
   .courseSection .images {
-    width: 150vh;
+    width: 50%;
     margin: 0;
     margin-right: 1rem;
-  }
-
-  .courseSection .card-title {
-    font-size: 1rem;
+    height: 80%;
   }
 
   .courseSection p {
-    font-size: 0.7rem;
+    font-size: 1.8vh;
+  }
+
+  .courseSection h3 {
+    font-size: 3vh;
+  }
+
+  .courseSection .card-body {
+    width: 95%;
   }
 
   .homedesk {
