@@ -29,7 +29,7 @@ const courses = [
     imgSouce: 'assets/images/courses/course4.jpg',
     title: 'Employment and Related Income',
     date: '24 January 2023',
-    text: 'Curious about how expatriates are taxed under tax treaties? This course takes you through both basic concepts and more situations that can arise in practice.',
+    text: 'Curious about how expatriates are taxed under tax treaties? takes you through both basic concepts and more situations that can arise in practice.',
   },
   {
     id: '4',
