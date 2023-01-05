@@ -24,10 +24,9 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  
 
-  <h3><b>City Tax</b></h3>
+  <h1><b>City Tax</b></h1>
 
 </div>
 
@@ -84,7 +83,7 @@ After you're finished please remove all the comments and instructions!
 
 
 - **Responsive design**
-- **Used only vanilla CSS, html and Javascript**
+- **Used only Bootstrap, CSS, html and Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
