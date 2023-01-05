@@ -66,7 +66,8 @@ a:hover {
 
 /* hero section */
 .hero {
-  background-image: url("./assets/images/hero/hero-1.png"),
+  background-image:
+    url("./assets/images/hero/hero-1.png"),
     url("./assets/images/hero/hero3.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -74,7 +75,8 @@ a:hover {
 }
 
 .hero2 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       rgba(242, 237, 237, 0.5),
       rgba(242, 237, 237, 0.5)
     ),
@@ -89,9 +91,9 @@ a:hover {
   font-weight: 1000;
   font-size: 5rem;
   line-height: 1.1;
-  background-clip: text;
-  -webkit-background-clip: text;
 
+  /* background-clip: text; */
+  -webkit-background-clip: text;
   background-image: url(./assets/images/hero/hbgd6.jpg);
   background-position: left 23%, right top;
   background-attachment: local;
@@ -162,17 +164,20 @@ a:hover {
 }
 
 .wedo1 {
-  background: linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
+  background:
+    linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
     url(./assets/images/wedos/wedo1.jpg);
 }
 
 .wedo2 {
-  background: linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
+  background:
+    linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
     url(./assets/images/wedos/wedo2.jpg);
 }
 
 .wedo3 {
-  background: linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
+  background:
+    linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
     url(./assets/images/wedos/wedo3.jpg);
 }
 
