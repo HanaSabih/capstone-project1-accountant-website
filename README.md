@@ -1,26 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
@@ -124,13 +104,7 @@ In order to run this project you need:
 - Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer
 
 
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -139,14 +113,7 @@ Clone this repository to your desired folder:
     cd your-desired-folder
     git clone https://github.com/HanaSabih/capstone-project1-accountant-website.git
 ```
-<!--
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
@@ -170,13 +137,7 @@ Example command:
 
 To run the project, open index.html with your preferred browser.
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
