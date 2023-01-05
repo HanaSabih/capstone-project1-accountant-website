@@ -119,7 +119,6 @@ a:hover {
 
 /* course Section */
 .courseSection .images {
-  width: 100%;
   margin: 1rem;
 }
 
@@ -203,11 +202,11 @@ a:hover {
   }
 
   .toolsapp .card {
-    height: 45vh;
+    height: 15rem;
   }
 
   .toolsapp .card-text {
-    font-size: 2.8vh;
+    font-size: 0.9rem;
   }
 
   /* header */
@@ -301,6 +300,12 @@ a:hover {
 
   .courseSection h3 {
     font-size: 3vh;
+  }
+
+  /* course Section */
+  .courseSection .images {
+    width: 30rem;
+    height: 9rem;
   }
 }
 
