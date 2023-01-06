@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+.darkColor {
+  color: #272a31;
+}
+
+.darkBgd {
+  background-color: #272a31;
+}
+
+.darkBgd2 {
+  background-color: #414246;
+}
+
+.orangeColor {
+  color: #ec5242;
+}
+
+.orangeBgd {
+  background-color: #ec5242;
+}
+
+.greyColor {
+  color: #d3d3d3;
+}
+
+.greyBgd {
+  background-color: #d3d3d3;
+}
+
+.whiteColor {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ec5242;
+}
+
+/* hero section */
+.hero {
+  background:
+    linear-gradient(
+      rgba(242, 237, 237, 0.5),
+      rgba(242, 237, 237, 0.5)
+    ),
+    url(./assets/images/hero/hero3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero2 {
+  background:
+    linear-gradient(
+      rgba(242, 237, 237, 0.5),
+      rgba(242, 237, 237, 0.5)
+    ),
+    url(./assets/images/hero/hero3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 1000;
+  font-size: 5rem;
+  line-height: 1.1;
+  -webkit-background-clip: text;
+  background-image: url(./assets/images/hero/hbgd6.jpg);
+  background-position: left 23%, right top;
+  background-attachment: local;
+  background-size: cover;
+  color: transparent;
+}
+
+.hero2 h1 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 1000;
+  font-size: 4rem;
+  line-height: 1.1;
+  text-shadow: 0 0 25px #d3d3d3, 0 0 5px #d3d3d3;
+}
+
+.hero h2 {
+  font-weight: 900;
+}
+
+/* Tools & Applications section  */
+.toolsapp {
+  background-image: url(./assets/images/tools/infoBg.png);
+}
+
+/* course Section */
+.courseSection .images {
+  margin: 1rem;
+}
+
+.courseSection .img1 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.courseSection .img2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+}
+
+.courseSection hr {
+  width: 10%;
+}
+
+.lineTen {
+  width: 10%;
+  height: 0.3vh;
+}
+
+.linesmall {
+  width: 5%;
+  height: 0.3vh;
+}
+
+/* footer */
+.copyright img {
+  width: 40%;
+}
+
+.copyright p {
+  font-size: 1.7vh;
+}
+
+.wedo1 {
+  background:
+    linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
+    url(./assets/images/wedos/wedo1.jpg);
+}
+
+.wedo2 {
+  background:
+    linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
+    url(./assets/images/wedos/wedo2.jpg);
+}
+
+.wedo3 {
+  background:
+    linear-gradient(rgba(255, 79, 55, 0.5), rgba(255, 79, 55, 0.5)),
+    url(./assets/images/wedos/wedo3.jpg);
+}
+
+.wedo1,
+.wedo2,
+.wedo3 {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.toolsapp .card:hover {
+  border: 1px solid white;
+}
+
+@media screen and (min-width: 768px) {
+  .width8 {
+    width: 80%;
+  }
+
+  .width5 {
+    width: 50%;
+  }
+
+  .toolsapp .card {
+    height: 15rem;
+  }
+
+  .toolsapp .card-text {
+    font-size: 0.9rem;
+  }
+
+  /* header */
+  .navbar-toggler {
+    display: none;
+  }
+
+  .desk-ctr {
+    display: flex;
+    height: 3.7rem;
+    align-items: center;
+  }
+
+  .first-nav {
+    height: 1.6rem;
+  }
+
+  .nav-link {
+    margin-left: 2rem;
+  }
+
+  .nav-item .btn {
+    border: 0.2rem solid #ec5242;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  /* hero section */
+  .hero,
+  .hero2 {
+    height: 100vh;
+  }
+
+  .hero2 .notep {
+    display: none;
+  }
+
+  .heroabout {
+    width: 75%;
+  }
+
+  .hero-cont {
+    padding-top: 5.6rem;
+  }
+
+  .career p {
+    width: 65%;
+  }
+
+  .hero-cont p:first-child {
+    font-size: 2.5rem;
+  }
+
+  /* Tools & Applications section  */
+  .toolsapp .btn {
+    display: none;
+  }
+
+  /* course Section */
+  .courseSection .btn {
+    display: none;
+  }
+
+  /* partners */
+  .partners img {
+    width: 15%;
+    margin: 1rem;
+  }
+
+  /* whatwedo */
+  .whatwedo {
+    gap: 3rem;
+  }
+
+  /* career */
+
+  .career .imgcont {
+    width: 45%;
+  }
+
+  .mobilesection {
+    display: none;
+  }
+
+  .desksection {
+    background-color: #2e2e2e;
+  }
+
+  .courseSection h3 {
+    font-size: 3vh;
+  }
+
+  /* course Section */
+  .courseSection .images {
+    width: 30rem;
+    height: 9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .width8 {
+    width: 95%;
+  }
+
+  .widthCtr,
+  .width5 {
+    width: 100%;
+  }
+
+  /* navbar */
+  .first-nav,
+  .desk-ctr {
+    display: none;
+  }
+
+  .navbar-toggler-icon {
+    width: 2.5em;
+  }
+
+  .nav-link {
+    font-size: 6vh;
+  }
+
+  .nav-link:hover {
+    color: #ec5242;
+  }
+
+  /* hero section */
+  .hero {
+    background-position: top left;
+  }
+
+  .hero-cont {
+    padding-top: 3.6rem;
+    padding-bottom: 3.6rem;
+  }
+
+  .hero1p {
+    padding-top: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero2 {
+    position: relative;
+    padding-top: 7vh;
+  }
+
+  header {
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .hero2 .notep {
+    font-size: 5vh;
+  }
+
+  .hero2 h1 {
+    font-size: 10vh;
+  }
+
+  .heroabout {
+    width: 100%;
+  }
+
+  .herocontact {
+    width: 75%;
+  }
+
+  .heroabout span,
+  .hrhero,
+  .nexthero {
+    display: none;
+  }
+
+  /* Tools & Applications section  */
+  .toolsapp .card-body {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: left;
+  }
+
+  .toolsapp .row {
+    gap: 1rem;
+  }
+
+  .toolsapp img {
+    max-width: 15%;
+    height: 20%;
+  }
+
+  .toolsapp h5 {
+    width: 20%;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  .toolsapp p {
+    max-width: 60%;
+  }
+
+  .toolsapp .findmore {
+    display: none;
+  }
+
+  .toolsapp .btn {
+    font-size: 1.5rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  /* course Section */
+  .courseSection .btn {
+    display: block;
+  }
+
+  /* partners */
+  .partners img {
+    margin: 0.6rem;
+    width: 20%;
+  }
+
+  /* whatwedo */
+  .whatwedo {
+    gap: 1rem;
+  }
+
+  /* career */
+  .career p span {
+    display: none;
+  }
+
+  .career .imgcont {
+    width: 100%;
+  }
+
+  .wedo1,
+  .wedo2,
+  .wedo3 {
+    height: 70vh;
+  }
+
+  .copyright p {
+    font-size: 3.5vh;
+  }
+
+  .desksection {
+    display: none;
+    background-color: #2e2e2e;
+  }
+
+  /* courseSection */
+  .courseSection .card {
+    height: 16rem;
+  }
+
+  .courseSection .images {
+    width: 50%;
+    margin: 0;
+    margin-right: 1rem;
+    height: 80%;
+  }
+
+  .courseSection p {
+    font-size: 1.8vh;
+  }
+
+  .courseSection h3 {
+    font-size: 3vh;
+  }
+
+  .courseSection .card-body {
+    width: 95%;
+  }
+
+  .homedesk {
+    display: none;
+  }
+}
