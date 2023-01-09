@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 HEROX TECH-HUB <a name="about-project"></a>
+# 📖 City Tax <a name="about-project"></a>
 
  This is a capstone project in the Microverse program to test my understanding of HTML,CSS and DOM Manipulation. I therefore designed an annual lecture website where you can see details of the lecture.
 
